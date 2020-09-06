@@ -23,7 +23,7 @@ class Timestamps{
        myFSecond = seconds2 - seconds1;
        myFinalAnswer = (myFHour * 3600) + (myFMinute * 60) + myFSecond;
        //Print Statement
-       System.out.println( myFinalAnswer);
+       System.out.print( myFinalAnswer);
        // closing the scanner object
        scanner.close();
    }

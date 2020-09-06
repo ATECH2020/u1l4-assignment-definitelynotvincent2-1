@@ -11,7 +11,7 @@ class AnalogClock{
        int myHour = myDegrees / 30;
        int myHourAngle = myHour * 30;
        int myMinutes = (myDegrees - myHourAngle) * 2;
-       System.out.println(myMinutes * 6);
+       System.out.print(myMinutes * 6);
        // closing the scanner object
        in.close();
    }

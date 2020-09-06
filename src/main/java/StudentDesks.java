@@ -12,7 +12,7 @@ class StudentDesks{
         */
        int myRemainder = (myA + myB + myC) % 2;
        int myFinalAnswer = myA + myB + myC + myRemainder;
-       System.out.println(myFinalAnswer);
+       System.out.print(myFinalAnswer);
        // closing the scanner object
        in.close();
    }
